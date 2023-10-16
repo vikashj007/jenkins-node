@@ -6,6 +6,6 @@ app.get('/',(req,res)=>{
 })
 app.listen(3000,(req,res)=>{
     console.log("listening to 3000 port");
-    res.sendStatus(200);
+    res.send("done");
 } )
     
